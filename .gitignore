@@ -1,0 +1,8 @@
+lambda/slack-invite/requests*/
+lambda/slack-invite/setup.cfg
+lambda/slack-invite/run.py
+web/static/awsbulgaria*
+web/static/style.css
+web/lib/
+web/apigClient.js
+web/README.md

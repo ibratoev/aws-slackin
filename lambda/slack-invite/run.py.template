@@ -1,0 +1,24 @@
+import logging
+import requests
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+def lambda_handler(event, context):
+  if "@" not in event["email"]:
+    raise Exception("Missing email")
+    
+  r = requests.post("https://slack.com/api/users.admin.invite", data={
+    "token": "{{ YOUR_SLACK_TOKEN }}",
+    "email": event["email"]})
+
+  if r.json()["ok"]:
+    return {
+      "success": True,
+      "message": "WOOOT. Check your email!"
+    }
+  else:
+    return {
+      "success": False,
+      "message": "Error while sending invitation: " + r.json()["error"]
+    }
