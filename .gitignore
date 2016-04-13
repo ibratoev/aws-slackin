@@ -6,3 +6,4 @@ web/static/style.css
 web/lib/
 web/apigClient.js
 web/README.md
+web/slack

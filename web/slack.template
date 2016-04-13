@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Join #AWSBulgaria on Slack!</title>
+    <title>Join YOUR_SLACK_TEAM_NAME on Slack!</title>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport">
     <link href="https://slack.global.ssl.fastly.net/272a/img/icons/favicon-32.png" rel="shortcut icon">
@@ -25,7 +25,7 @@
             <div class="logo slack"></div>
         </div>
 
-        <p>Join #AWSBulgaria on Slack.</p>
+        <p>Join YOUR_SLACK_TEAM_NAME on Slack.</p>
 
         <form>
           <input autofocus="true" class="form-item" placeholder="you@yourdomain.com" type="email">
@@ -33,7 +33,7 @@
         </form>
 
         <footer>
-          powered by <a href="http://github.com/acemod/slackin-python" target="_blank">slackin</a>
+          powered by <a href="https://github.com/ibratoev/aws-slackin" target="_blank">aws-slackin</a>
         </footer>
 
         <script src="static/client.js"></script>
